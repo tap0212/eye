@@ -1,0 +1,14 @@
+.nav{
+    height: 80px;
+    overflow: hidden;
+    img{
+        float: left;
+        height: 80px;
+        width: 80px;
+        padding: 1%;
+    }
+    img:hover{
+        cursor: pointer;
+    }
+}
+

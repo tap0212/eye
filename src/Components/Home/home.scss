@@ -1,0 +1,47 @@
+.home{
+   .input{
+    text-align: center;
+    input{
+        border-radius: 5px;
+        color: black;
+        padding: 10px;
+    }
+    input::placeholder{
+        color: grey;
+    }
+    p{
+        font-weight: 300;
+    }
+   }
+   .symbol{
+       h5{
+           color: red;
+           font-size: 1.3em;
+           opacity: 0.6;
+           font-weight: 400;
+           margin-top: 20vh;
+       }
+   }
+
+   .current-symbol{
+    opacity: 0.5;
+       .icon-bulb{
+           margin-top: 20%;
+           font-size: 75px;
+       }
+   }
+}
+
+#icon{
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 0.5%;
+    background-color: blue;
+    color: white;
+}
+#icon:hover{
+    background-color:black;
+    cursor: pointer;
+}
