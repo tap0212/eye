@@ -101,11 +101,11 @@ import SYMBOL from '../Charts/symbol'
                     <SearchTwoToneIcon id="icon"  onClick={handleSearch} />
                 <p>Enter the symbol of the Stock to visualise data</p>   
                     {Flash()}
-                    <Grid container spacing={3} >
-                        <Grid item sm={12} md={6}>
+                    <Grid container spacing={0} >
+                        <Grid item xs={12} sm={12} md={6}>
                             <SYMBOL avg={avg} selectedSymbol={selectedSymbol} loading={loading} symbolData={symbolData}/>
                         </Grid> 
-                        <Grid item sm={12} md={6}>
+                        <Grid item xs={12} sm={12} md={6}>
                             <NFTY />
                         </Grid> 
                     </Grid>   
