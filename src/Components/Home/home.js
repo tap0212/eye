@@ -14,10 +14,11 @@ import NFTY  from '../Charts/nfty'
 import SYMBOL from '../Charts/symbol'
 
  const Home = (props) => {
-    const override = css`
+    const override1 = css`
     display: block;
-    margin-left:50%;
+    margin-left:45%;
    `;
+
 
 
      const [symbol, setSymbol] = useState("")
@@ -81,7 +82,7 @@ import SYMBOL from '../Charts/symbol'
     const Flash = () => {
         if(loading){
            return (<PropagateLoader
-            css={override}
+            css={override1}
             size={10}
             color={"blue"}
             loading={props.loading}
